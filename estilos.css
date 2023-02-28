@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap');
+:root {
+    --color-principal: #2b2b2b;
+    --color-secundario: #e4e4e4;
+}
+
+body {
+    background-color: white;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  ----------------------------------------Ej.1----------------------------------------  */
+
+.cuadrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    margin-top: 5%;
+    box-shadow: 3px 2px 5px -1px rgba(0, 0, 0, 0.75);
+    background-color: transparent;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-image: url("https://source.unsplash.com/pJ_DCj9KswI/1080x360");
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: var(--color-secundario);
+    font-weight: 900;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    justify-content: space-between;
+    padding-inline: 15px;
+}
+
+.titulo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 5px solid white;
+    margin-top: 50px;
+}
+
+.mensaje {
+    padding: 50px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje h3 {
+    padding-top: 15px;
+}
+
+.mensaje h4 {
+    padding-top: 10px;
+}
+
+.mensaje p {
+    padding-top: 10px;
+    text-align: center;
+}
